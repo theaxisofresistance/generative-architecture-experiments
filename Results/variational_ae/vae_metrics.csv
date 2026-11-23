@@ -1,0 +1,2 @@
+model,dataset,seed,train_size,val_size,test_size,latent_dim,batch_size,num_parameters,best_epoch,beta,training_time_epoch_s_mean,inference_latency_batch64_ms,test_mse,test_psnr_db,test_ssim,fid,fid_features,fid_samples,device
+VAE,Fashion-MNIST,42,56000,7000,7000,64,128,451984,15,1.0,7.060956658733338,0.16465540000278148,0.014139166773581992,19.305294690813337,0.6933051070832501,102.33056648044024,2048,2048,cuda

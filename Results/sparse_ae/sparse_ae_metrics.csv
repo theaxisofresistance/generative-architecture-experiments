@@ -1,0 +1,2 @@
+model,dataset,seed,train_size,val_size,test_size,latent_dim,batch_size,num_parameters,best_epoch,training_time_epoch_s_mean,inference_latency_batch64_ms,test_mse,test_psnr_db,test_ssim,fid,device,lambda_l1,test_latent_zero_fraction,test_mean_latent_l1
+Sparse AE,Fashion-MNIST,42,56000,7000,7000,64,128,435536,15,6.791574116266675,0.21463246667015787,0.010563956847343778,20.671544983591353,0.7415179959541188,,cuda,0.0001,0.578953125,10.308415902273996

@@ -1,0 +1,2 @@
+model,dataset,test_accuracy,target_accuracy,meets_target,latent_dim,seed,train_time_per_epoch_s
+MLP classifier,Fashion-MNIST,0.885,0.88,True,64,42,6.315288910649997

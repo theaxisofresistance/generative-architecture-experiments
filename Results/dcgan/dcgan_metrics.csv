@@ -1,0 +1,2 @@
+model,dataset,seed,train_size,val_size,test_size,latent_dim,batch_size,epochs,num_parameters,learning_rate,training_time_epoch_s_mean,inference_latency_batch64_ms,test_mse,test_psnr_db,test_ssim,fid,fid_features,fid_samples,final_d_loss,final_g_loss,device
+DCGAN,Fashion-MNIST,42,56000,7000,7000,64,128,15,1469122,0.0002,18.62516560366667,4.260332099984983,,,,38.013328300073,2048,2048,0.60181343460083,0.9866919554301671,cuda
